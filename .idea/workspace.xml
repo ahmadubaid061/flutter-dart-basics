@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d40e89ec-ec36-4422-8f6a-53beb3a6b162" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-Dart Basics/00-Dart-Variables.dart" beforeDir="false" afterPath="$PROJECT_DIR$/00-Dart Basics/00-Dart-Variables.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-Dart Basics/02-Loops_in_Dart.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   "keyToString": {
     "Dart Command Line App.00-Dart-Variables.dart.executor": "Run",
     "Dart Command Line App.01-Dart-Conditional-Statements.dart.executor": "Run",
+    "Dart Command Line App.02-Loops_in_Dart.dart.executor": "Run",
     "Dart Command Line App.Dart-Variables.dart.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
