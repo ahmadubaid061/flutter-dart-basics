@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d40e89ec-ec36-4422-8f6a-53beb3a6b162" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/00-Dart Basics/02-Loops_in_Dart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-OOP-in-Dart/00-Classes-and-Objects.dart" beforeDir="false" afterPath="$PROJECT_DIR$/01-OOP-in-Dart/00-Classes-and-Objects.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-OOP-in-Dart/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-OOP-in-Dart/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="17" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +26,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
@@ -37,15 +46,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Dart Command Line App.00-Dart-Variables.dart.executor": "Run",
+    "Dart Command Line App.00-classes.dart.executor": "Run",
     "Dart Command Line App.01-Dart-Conditional-Statements.dart.executor": "Run",
     "Dart Command Line App.02-Loops_in_Dart.dart.executor": "Run",
+    "Dart Command Line App.03-Lists_Operations.dart.executor": "Run",
+    "Dart Command Line App.04-Looping-through-List.dart.executor": "Run",
+    "Dart Command Line App.05-Functions-in-Dart.dart.executor": "Run",
     "Dart Command Line App.Dart-Variables.dart.executor": "Run",
+    "Dart Command Line App.main.dart.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -54,7 +72,8 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "dart.settings"
+    "settings.editor.selected.configurable": "editor.breadcrumbs",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RunManager">
