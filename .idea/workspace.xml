@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d40e89ec-ec36-4422-8f6a-53beb3a6b162" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-OOP-in-Dart/00-Classes-and-Objects.dart" beforeDir="false" afterPath="$PROJECT_DIR$/01-OOP-in-Dart/00-Classes-and-Objects.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-OOP-in-Dart/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-OOP-in-Dart/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d40e89ec-ec36-4422-8f6a-53beb3a6b162" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +27,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000013116228" />
+      <entry key="S2" value="1.0060841461261825" />
+      <entry key="S5" value="1.1506454914904862" />
+      <entry key="S10" value="1.5055735877611642" />
+      <entry key="S30" value="2.237615237220636" />
+      <entry key="S60" value="2.5688759859535355" />
+      <entry key="M2" value="2.7701211832856445" />
+      <entry key="M5" value="2.9043448225552546" />
+      <entry key="M10" value="2.951531298961052" />
+      <entry key="M15" value="2.967543239534701" />
+      <entry key="M30" value="2.983699011551142" />
+      <entry key="H1" value="2.9918312666156384" />
+      <entry key="H2" value="2.995911062581728" />
+      <entry key="H4" value="2.997954387239324" />
+      <entry key="D1" value="2.9996589055274177" />
+      <entry key="W1" value="2.9999512683225005" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0625" />
+      <entry key="MS500" value="0.5743491787849295" />
+      <entry key="S2" value="0.8766041072071799" />
+      <entry key="S5" value="1.0962613380553312" />
+      <entry key="S10" value="1.4772237546708014" />
+      <entry key="S30" value="2.2273957952786363" />
+      <entry key="S60" value="2.563584647755238" />
+      <entry key="M2" value="2.7674193461521033" />
+      <entry key="M5" value="2.903248952333479" />
+      <entry key="M10" value="2.9509806899899993" />
+      <entry key="M15" value="2.96717556097565" />
+      <entry key="M30" value="2.9835148663344517" />
+      <entry key="H1" value="2.9917391169591347" />
+      <entry key="H2" value="2.995864968420524" />
+      <entry key="H4" value="2.9979313353165926" />
+      <entry key="D1" value="2.9996550628670224" />
+      <entry key="W1" value="2.9999507193545165" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
   &quot;fromUser&quot;: false
@@ -43,39 +98,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Dart Command Line App.00-Dart-Variables.dart.executor": "Run",
-    "Dart Command Line App.00-classes.dart.executor": "Run",
-    "Dart Command Line App.01-Dart-Conditional-Statements.dart.executor": "Run",
-    "Dart Command Line App.02-Loops_in_Dart.dart.executor": "Run",
-    "Dart Command Line App.03-Lists_Operations.dart.executor": "Run",
-    "Dart Command Line App.04-Looping-through-List.dart.executor": "Run",
-    "Dart Command Line App.05-Functions-in-Dart.dart.executor": "Run",
-    "Dart Command Line App.Dart-Variables.dart.executor": "Run",
-    "Dart Command Line App.main.dart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.breadcrumbs",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Dart Command Line App.00-Dart-Variables.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.00-classes.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.01-Dart-Conditional-Statements.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.02-Loops_in_Dart.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.03-Lists_Operations.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.04-Looping-through-List.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.05-Functions-in-Dart.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.Dart-Variables.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.main.dart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.breadcrumbs&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="00-Dart-Variables.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/00-Dart Basics/00-Dart-Variables.dart" />
