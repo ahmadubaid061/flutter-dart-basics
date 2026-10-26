@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
+        AppBar: AppBar(
+
+        )
         body: Center(
           child:Text(
             'Name: Ubaid Ahmad\nRoll No: 2410-0011',

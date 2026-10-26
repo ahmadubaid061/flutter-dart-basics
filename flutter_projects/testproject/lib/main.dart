@@ -109,7 +109,23 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-          ],
+            SizedBox(height: 20,
+
+            ),
+            Container(
+              color: Colors.blue,
+              height: 200,
+              width: 250,
+
+              child: Center(
+                child:Image.network(
+                  'https://percdn.com/f/361465/cG96WmFtNG0vcUp3ZUdFOVU1NG5hQT09/m/69a1a3f221a0f-31562429-sw1920sh1080.webp',
+                  width: 200,
+                  height: 200,
+                  fit: BoxFit.cover, // Adjusts how the image fills its allocated space
+                )
+            )
+            )],
         ),
       ),
       floatingActionButton: FloatingActionButton(
