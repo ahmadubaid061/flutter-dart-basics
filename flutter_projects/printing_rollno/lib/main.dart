@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         AppBar: AppBar(
-
         )
         body: Center(
           child:Text(
