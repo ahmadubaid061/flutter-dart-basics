@@ -14,17 +14,21 @@ bool isPrime(int n) {
   return true;
 }
 
-// void printhybridList(int n) {
-//   dynamic count = 0;
-//   int value = 2;
-//   while (count < n) {
-//     if(isPrime(value) || )
-//   }
-// }
+void printhybridList(int n) {
+  final myList = <int>[];
+  dynamic count = 0;
+  int value = 2;
+  while (count < n) {
+    //if vlaue is prime or power of 2 then print it
+    if (isPrime(value) || (value & (value - 1)) == 0) {
+      myList.add(value);
+      
+      count++;
+    }
+    value++;
+  }
+  print(myList);
+}
 void main() {
-  print("2 is prime: ${isPrime(2)}");
-  print("1 is prime: ${isPrime(1)}");
-  print("3 is prime: ${isPrime(3)}");
-  print("6 is prime: ${isPrime(6)}");
-  print("11 is prime: ${isPrime(11)}");
+ printhybridList(10);
 }
