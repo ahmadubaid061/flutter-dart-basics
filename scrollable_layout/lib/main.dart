@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Floating AppBar Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        scaffoldBackgroundColor: Colors.grey[200],
         useMaterial3: true,
       ),
       home: const ScrollableLayout(),
@@ -34,7 +35,11 @@ class ScrollableLayout extends StatelessWidget {
           padding: EdgeInsetsGeometry.all(10),
           child: Text(
             "AB Motors",
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+            ),
           ),
         ),
       ),
@@ -42,7 +47,12 @@ class ScrollableLayout extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsetsGeometry.all(10),
+              padding: EdgeInsetsGeometry.only(
+                left: 10,
+                right: 10,
+                top: 10,
+                bottom: 5,
+              ),
               child: Container(
                 width: double.infinity,
                 height: 80,
@@ -97,7 +107,216 @@ class ScrollableLayout extends StatelessWidget {
                 ),
               ),
             ),
-            
+            Padding(
+              padding: EdgeInsetsGeometry.only(
+                left: 10,
+                right: 10,
+                top: 0,
+                bottom: 5,
+              ),
+              child: Row(
+                children: [
+                  const Text(
+                    "TOP DEALS",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 183, 183, 183),
+                    ),
+                  ),
+                  Spacer(),
+                  const Text(
+                    "more...",
+                    style: TextStyle(fontSize: 15, color: Colors.blue),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: EdgeInsetsGeometry.only(
+                left: 10,
+                right: 10,
+                top: 0,
+                bottom: 5,
+              ),
+              child: SizedBox(
+                height: 250,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  // padding: const EdgeInsets.symmetric(horizontal: 16),
+                  children: [
+                    Container(
+                      height: 250,
+                      width: 200,
+                      padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Spacer(),
+                              Text(
+                                "weekly",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.blue,
+                                ),
+                              ),
+                            ],
+                          ),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(16),
+                            child: Image.asset(
+                              'assets/images/buick.jpg',
+                              height: 150,
+                              width: 190,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                " Discovery",
+                                style: TextStyle(fontSize: 10),
+                              ),
+                              Text(
+                                " Luxury Car",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(" per week", style: TextStyle(fontSize: 10)),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 250,
+                      width: 200,
+                      padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Spacer(),
+                              Text(
+                                "weekly",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.blue,
+                                ),
+                              ),
+                            ],
+                          ),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(16),
+                            child: Image.asset(
+                              'assets/images/lotus.jpg',
+                              height: 150,
+                              width: 190,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                " Discovery",
+                                style: TextStyle(fontSize: 10),
+                              ),
+                              Text(
+                                " Beautiful Car",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(" per week", style: TextStyle(fontSize: 10)),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 250,
+                      width: 200,
+                      padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Spacer(),
+                              Text(
+                                "weekly",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.blue,
+                                ),
+                              ),
+                            ],
+                          ),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(16),
+                            child: Image.asset(
+                              'assets/images/oldcar.jpg',
+                              height: 150,
+                              width: 190,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                " Discovery",
+                                style: TextStyle(fontSize: 10),
+                              ),
+                              Text(
+                                " Luxury Car",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(" per week", style: TextStyle(fontSize: 10)),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsetsGeometry.only(
+                left: 10,
+                right: 10,
+                top: 0,
+                bottom: 5,
+              ),
+            ),
           ],
         ),
       ),
