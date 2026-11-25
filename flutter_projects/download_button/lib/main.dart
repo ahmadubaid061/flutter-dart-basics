@@ -63,7 +63,7 @@ class _ExampleCupertinoDownloadButtonState
       ),
       body: ListView.separated(
         itemCount: _downloadControllers.length,
-        separatorBuilder: (_, __) => const Divider(),
+        separatorBuilder: (_, _) => const Divider(),
         itemBuilder: _buildListItem,
       ),
     );
@@ -166,12 +166,10 @@ abstract class DownloadController extends ChangeNotifier {
 // Simulated download controller
 class SimulatedDownloadController extends DownloadController {
   SimulatedDownloadController({
-    DownloadStatus downloadStatus = DownloadStatus.notDownloaded,
-    double progress = 0.0,
-    required VoidCallback onOpenDownload,
-  })  : _downloadStatus = downloadStatus,
-        _progress = progress,
-        _onOpenDownload = onOpenDownload;
+    this._downloadStatus = DownloadStatus.notDownloaded,
+    this._progress = 0.0,
+    required this._onOpenDownload,
+  });
 
   DownloadStatus _downloadStatus;
 
@@ -393,7 +391,7 @@ class ButtonShapeWidget extends StatelessWidget {
     if (isDownloading || isFetching) {
       shape = ShapeDecoration(
         shape: const CircleBorder(),
-        color: Colors.white.withOpacity(0),
+        color: Colors.white.withValues(alpha: 0),
       );
     }
 
@@ -452,7 +450,7 @@ class ProgressIndicatorWidget extends StatelessWidget {
           return CircularProgressIndicator(
             backgroundColor: isDownloading
                 ? CupertinoColors.lightBackgroundGray
-                : Colors.white.withOpacity(0),
+                : Colors.white.withValues(alpha: 0),
             valueColor: AlwaysStoppedAnimation<Color>(
               isFetching
                   ? CupertinoColors.lightBackgroundGray
