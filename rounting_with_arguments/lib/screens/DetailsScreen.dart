@@ -14,31 +14,54 @@ class DetailsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Details Screen'),
+        title: const Text('Student Details'),
+        automaticallyImplyLeading: false, // hide default back arrow
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Student Name: $name',
-              style: const TextStyle(fontSize: 24),
+        child: Card(
+          elevation: 6,
+          margin: const EdgeInsets.all(24),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const CircleAvatar(
+                  radius: 40,
+                  backgroundColor: Colors.teal,
+                  child: Icon(Icons.person, size: 50, color: Colors.white),
+                ),
+                const SizedBox(height: 20),
+                Text(
+                  'Name: $name',
+                  style: const TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  'Roll Number: $rollNumber',
+                  style: const TextStyle(fontSize: 20),
+                ),
+                const SizedBox(height: 24),
+                ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.teal,
+                    foregroundColor: Colors.white,
+                  ),
+                  icon: const Icon(Icons.arrow_back),
+                  label: const Text('Back'),
+                  onPressed: () {
+                    Navigator.pop(context); // return to Home Screen
+                  },
+                ),
+              ],
             ),
-            const SizedBox(height: 10),
-            Text(
-              'Roll Number: $rollNumber',
-              style: const TextStyle(fontSize: 24),
-            ),
-            const SizedBox(height: 30),
-
-            // Back button
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pop(context); // go back to Home Screen
-              },
-              child: const Text('Back'),
-            ),
-          ],
+          ),
         ),
       ),
     );
